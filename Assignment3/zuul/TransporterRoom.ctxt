@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ Subclass\ of\ room,\ where\ players\ will\ go\ to\ teleport\ to\ other\ rooms\r\n\r\n\ @author\ (Abhiram\ Santhosh)\r\n\ @version\ (12/11/17)\r\n
+comment1.params=description
+comment1.target=TransporterRoom(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ transporter\ room\r\n\ \r\n\ @param\ String\ description,\ description\ of\ the\ room\r\n
+comment2.params=
+comment2.target=Room\ findRandomRoom()
+comment2.text=\r\n\ Choose\ a\ random\ room.\r\n\r\n\ @return\ Room,\ The\ room\ we\ end\ up\ in\ upon\ leaving\ this\ one.\r\n
+comment3.params=rooms
+comment3.target=void\ passedRooms(java.util.ArrayList)
+comment3.text=\r\n\ Pass\ the\ list\ of\ rooms\ to\ the\ transporter\ room\ so\ that\ the\ transporter\ room\ can\r\n\ copy\ this\ list\r\n\ \r\n\ @param\ ArrayList<Room>\ rooms,\ arraylist\ of\ all\ rooms\ in\ the\ game.\r\n
+comment4.params=direction
+comment4.target=Room\ getExit(java.lang.String)
+comment4.text=\r\n\ Get\ the\ exit\ of\ the\ room,\ overide\ the\ superclass\ \r\n\ \r\n\ @param\ String\ direction,\ exit\ direction\ of\ the\ room\r\n\ @return\ Room,\ returns\ the\ random\ room.\r\n
+numComments=5

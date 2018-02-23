@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ models\ the\ players\ in\ the\ game\ of\ Chance-It.\r\n\r\n\ @author\ D.L.\ Bailey\ &\ L.S.\ Marshall,\ SCE,\ Carleton\ University\r\n\ @version\ 2.00\ September\ 23,\ 2007\r\n
+comment1.params=d\ myName
+comment1.target=Player(Dice,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ new\ player\ using\ the\ specified\ dice.\r\n\r\n\ @param\ d\ The\ dice\ object\ shared\ by\ all\ players.\r\n\ @param\ name\ The\ player's\ name.\r\n
+comment2.params=
+comment2.target=void\ resetTotalScore()
+comment2.text=\r\n\ Resets\ this\ player's\ total\ score\ to\ 0.\r\n
+comment3.params=
+comment3.target=int\ score()
+comment3.text=\r\n\ Returns\ this\ players's\ cumulative\ score.\r\n\r\n\ @return\ The\ sum\ of\ this\ player's\ turn\ scores\ for\ all\ of\ the\r\n\ rounds\ played\ so\ far.\r\n
+comment4.params=
+comment4.target=java.lang.String\ name()
+comment4.text=\r\n\ Returns\ this\ player's\ name.\r\n\r\n\ @return\ The\ name\ of\ this\ player.\r\n
+comment5.params=otherTurnScore
+comment5.target=int\ takeTurn(int)
+comment5.text=\r\n\ Takes\ one\ turn\ for\ this\ player.\r\n\r\n\ @param\ otherTurnScore\ The\ most\ recent\ turn\ score\ obtained\ by\ the\r\n\ other\ player.\ This\ value\ may\ be\ useful\ when\ formulating\r\n\ the\ strategy\ that\ determines\ when\ to\ stop\ rolling\ the\r\n\ dice.\r\n\ @return\ The\ score\ obtained\ by\ this\ player\ during\ the\ turn.\r\n
+comment6.params=i
+comment6.target=boolean\ stopRolling(int)
+comment6.text=\r\n\ Encapsulates\ the\ strategy\ used\ by\ this\ player\ to\ determine\ when\r\n\ to\ stop\ rolling\ the\ dice\ during\ each\ turn.\r\n\r\n\ As\ currently\ implemented,\ the\ player\ will\ always\ decide\ to\ stop\r\n\ when\ the\ current\ roll\ is\ 7\ or\ higher.\r\n\r\n\ @return\ true\ when\ the\ player\ decides\ to\ end\ their\ current\ turn;\r\n\ otherwise\ returns\ false.\r\n
+numComments=7

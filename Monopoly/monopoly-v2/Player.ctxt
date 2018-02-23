@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Models\ a\ player\ in\ a\ siumulated\ game\ of\ Monopoly.\r\n\ \r\n\ @author\ D.L.\ Bailey,\ SCE,\ Carleton\ University\ \r\n\ @version\ 1.21\ January\ 20,\ 2007\r\n
+comment1.params=name\ board\ dice
+comment1.target=Player(java.lang.String,\ Board,\ Dice)
+comment1.text=\r\n\ Constructs\ a\ new\ player\ with\ the\ specified\ name.\ The\ player\ is\r\n\ placed\ in\ the\ board's\ starting\ square.\r\n\r\n\ @param\ name\ The\ player's\ name.\r\n\ @param\ board\ The\ game\ board.\r\n\ @param\ dice\ The\ dice\ shared\ by\ both\ players.\r\n
+comment2.params=
+comment2.target=void\ takeTurn()
+comment2.text=\r\n\ Rolls\ the\ dice\ and\ moves\ this\ player\ by\ the\ number\ of\ squares\r\n\ equal\ to\ the\ value\ rolled.\ \r\n
+numComments=3

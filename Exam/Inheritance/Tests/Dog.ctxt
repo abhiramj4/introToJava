@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Dog
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Dog\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=breed\ color
+comment1.target=Dog(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Dog\r\n
+comment2.params=
+comment2.target=java.lang.String\ noise()
+comment2.text=\r\n\ Make\ a\ noise\!\r\n
+comment3.params=
+comment3.target=boolean\ hasEgg()
+comment4.params=
+comment4.target=void\ task()
+comment5.params=
+comment5.target=boolean\ isAlive()
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=title\ width\ height\ bgColour
+comment0.target=DrawingCanvas(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment0.text=\r\n\ Creates\ a\ DrawingCanvas.\r\n\ @param\ title\ \ title\ to\ appear\ in\ Canvas\ Frame\r\n\ @param\ width\ \ the\ desired\ width\ for\ the\ canvas\r\n\ @param\ height\ \ the\ desired\ height\ for\ the\ canvas\r\n\ @param\ bgClour\ \ the\ desired\ background\ colour\ of\ the\ canvas\r\n
+comment1.params=newColour
+comment1.target=void\ setForegroundColour(java.lang.String)
+comment1.text=\r\n\ Changes\ the\ foreground\ colour\ of\ this\ drawing\ canvas\ to\ the\ specified\ colour.\r\n\ \r\n\ @param\ newColour\ The\ new\ colour\ for\ the\ foreground\ of\ this\ canvas.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Valid\ colors\ are\ "red",\ "black",\ "blue",\ "yellow",\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "green",\ "magenta"\ and\ "white".\ If\ an\ invalid\ colour\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ specified,\ the\ foreground\ colour\ doesn't\ change.\r\n
+comment2.params=x1\ y1\ x2\ y2\ width\ colour
+comment2.target=void\ drawLine(int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment2.text=Draws\ a\ straight\ line\ with\ the\ specified\ colour\ on\ the\ canvas\ between\ points\ (x1,y1)\ and\ (x2,y2)
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\r\n\ Returns\ the\ width\ of\ this\ drawing\ canvas.\r\n\ @return\ The\ current\ with\ of\ this\ canvas.\r\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment4.text=\r\n\ Returns\ the\ height\ of\ this\ drawing\ canvas.\r\n\ @return\ The\ current\ with\ of\ this\ canvas.\r\n
+numComments=5

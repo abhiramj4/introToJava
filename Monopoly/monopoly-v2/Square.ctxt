@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\r\n\ A\ square\ on\ the\ Monopoly\ game\ board.\r\n\ \r\n\ @author\ D.L.\ Bailey,\ SCE,\ Carleton\ University\ \r\n\ @version\ 1.12\ January\ 20,\ 2007\r\n
+comment1.params=number
+comment1.target=Square(int)
+comment1.text=\r\n\ Constructs\ a\ new\ Square\ with\ the\ specified\ number.\r\n\r\n\ @param\ number\ This\ square's\ number.\r\n
+comment2.params=
+comment2.target=int\ number()
+comment2.text=\r\n\ Returns\ this\ square's\ number.\r\n\r\n\ @return\ This\ square's\ number.\r\n
+comment3.params=
+comment3.target=java.lang.String\ description()
+comment3.text=\r\n\ Returns\ a\ description\ of\ this\ square.\r\n\r\n\ @return\ A\ String\ that\ describes\ this\ square.\r\n
+numComments=4

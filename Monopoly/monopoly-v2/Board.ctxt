@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ The\ game\ board\ for\ a\ simulated\ game\ of\ Monopoly.\r\n\ \r\n\ @author\ D.L.\ Bailey,\ SCE,\ Carleton\ University\ \r\n\ @version\ 1.20\ January\ 6,\ 2007\r\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\r\n\ Constructs\ a\ new\ Board,\ populating\ it\ with\ squares.\r\n
+comment2.params=
+comment2.target=void\ buildSquares()
+comment2.text=\r\n\ Populates\ the\ board\ with\ squares\ numbered\ 1,\ 2,\ 3,\ ...,\ SIZE.\r\n\ The\ square\ numbered\ "n"\ is\ stored\ in\ squares[n-1].\r\n
+comment3.params=aSquare\ distance
+comment3.target=Square\ nextSquare(Square,\ int)
+comment3.text=\r\n\ Returns\ the\ square\ located\ "distance"\ squares\ after\ aSquare.\r\n
+comment4.params=
+comment4.target=Square\ startingSquare()
+comment4.text=\r\n\ Returns\ the\ square\ where\ all\ players\ are\ located\ at\ the\ start\ of\ the\ game.\r\n
+numComments=5
